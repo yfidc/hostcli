@@ -1,8 +1,4 @@
-<script>
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      document.body.innerHTML += `${data.ip}`;
-    })
-    .catch(err => console.error('Error:', err));
-</script>
+<?php
+$user_ip = $_SERVER['REMOTE_ADDR'];
+echo $user_ip;
+?>
