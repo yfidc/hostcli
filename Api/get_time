@@ -1,4 +1,9 @@
-<script>
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
     var currentTime = new Date().getTime();
     console.log(currentTime);
   </script>
+</body>
+</html>
