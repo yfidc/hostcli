@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>获取当前时间戳</title>
+</head>
+<body>
+  <script>
+    var currentTime = new Date().getTime();
+    console.log(currentTime);
+  </script>
+</body>
+</html>
